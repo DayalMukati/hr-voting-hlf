@@ -18,7 +18,7 @@
 # this script is actually in and infer location from there. (putting first)
 
 ROOTDIR=$(cd "$(dirname "$0")" && pwd)
-export PATH=${ROOTDIR}/../../bin:${PWD}/../../bin:$PATH
+export PATH=/usr/local/bin:/usr/local/bin:$PATH
 export FABRIC_CFG_PATH=${PWD}/configtx
 export VERBOSE=false
 
